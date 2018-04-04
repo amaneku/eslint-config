@@ -1,0 +1,34 @@
+{
+  "name": "@amaneku/eslint-config",
+  "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/amaneku/eslint-config/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-eslint-comments": "2.0.2",
+    "eslint-plugin-prettier": "2.6.0"
+  },
+  "devDependencies": {
+    "@amaneku/prettier-config": "1.0.0",
+    "eslint": "4.19.1",
+    "prettier": "1.11.1"
+  },
+  "homepage": "https://github.com/amaneku/eslint-config#readme",
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amaneku/eslint-config.git"
+  },
+  "scripts": {
+    "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
+    "lint": "eslint -c ./index.js \".\" \"./lib/\"",
+    "test": "npm run lint"
+  }
+}
