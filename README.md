@@ -1,5 +1,7 @@
 # @amaneku/eslint-config
 
+[![Build Status](https://travis-ci.org/amaneku/eslint-config.svg?branch=master)](https://travis-ci.org/amaneku/eslint-config)
+
 ## Installation
 
 Install `@amaneku/eslint-config`
