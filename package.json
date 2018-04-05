@@ -1,5 +1,6 @@
 {
   "name": "@amaneku/eslint-config",
+  "description": "ESLint config",
   "version": "1.0.0",
   "bugs": {
     "url": "https://github.com/amaneku/eslint-config/issues"
