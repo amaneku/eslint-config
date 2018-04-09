@@ -21,6 +21,14 @@ module.exports = {
 };
 ```
 
+flowtype:
+
+```js
+module.exports = {
+  extends: ['@amaneku/eslint-config/flowtype']
+};
+```
+
 es5:
 
 ```js
