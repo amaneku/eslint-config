@@ -15,7 +15,7 @@
   "devDependencies": {
     "@amaneku/prettier-config": "1.1.0",
     "eslint": "4.19.1",
-    "prettier": "1.13.5"
+    "prettier": "1.13.6"
   },
   "homepage": "https://github.com/amaneku/eslint-config#readme",
   "keywords": [
