@@ -8,7 +8,7 @@
   "dependencies": {
     "babel-eslint": "8.2.5",
     "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-eslint-comments": "2.0.2",
+    "eslint-plugin-eslint-comments": "3.0.1",
     "eslint-plugin-flowtype": "2.49.4",
     "eslint-plugin-prettier": "2.6.2"
   },
