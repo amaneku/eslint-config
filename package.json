@@ -8,21 +8,18 @@
   "dependencies": {
     "babel-eslint": "8.2.6",
     "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-eslint-comments": "2.0.2",
+    "eslint-plugin-eslint-comments": "3.0.1",
     "eslint-plugin-flowtype": "2.49.4",
     "eslint-plugin-prettier": "2.6.2"
   },
   "devDependencies": {
     "@amaneku/prettier-config": "1.1.0",
     "@amaneku/renovate-config": "1.0.0",
-    "eslint": "4.19.1",
+    "eslint": "5.1.0",
     "prettier": "1.13.7"
   },
   "homepage": "https://github.com/amaneku/eslint-config#readme",
-  "keywords": [
-    "config",
-    "eslint"
-  ],
+  "keywords": ["config", "eslint"],
   "license": "MIT",
   "main": "index.js",
   "repository": {
