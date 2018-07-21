@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./lib/base.js', './lib/babel.js', './lib/flowtype.js']
+  extends: ['./lib/base.js', './lib/esnext.js', './lib/flowtype.js']
 };
