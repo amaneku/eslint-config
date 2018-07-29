@@ -9,7 +9,7 @@ const allRules = new Rules();
 const removedRules = Object.keys(require('eslint/conf/replacements.json').rules);
 const plugins = new Plugins(environments, allRules);
 
-plugins.loadAll(['eslint-comments', 'prettier', 'flowtype']);
+plugins.loadAll(['eslint-comments', 'prettier', 'flowtype', 'typescript']);
 
 function validate(name) {
   describe(`${name}`, () => {
@@ -40,3 +40,4 @@ function validate(name) {
 validate('base');
 validate('esnext');
 validate('flowtype');
+validate('typescript');

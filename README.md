@@ -29,6 +29,14 @@ module.exports = {
 };
 ```
 
+typescript:
+
+```js
+module.exports = {
+  extends: ['@amaneku/eslint-config/typescript']
+};
+```
+
 es5:
 
 ```js
