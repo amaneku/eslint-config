@@ -13,36 +13,36 @@ $ npm install --save-dev @amaneku/eslint-config
 
 ## Usage
 
-in `.eslintrc.js`
+in ESLint config
 
-```js
-module.exports = {
+```
+{
   extends: ['@amaneku/eslint-config']
-};
+}
 ```
 
 flowtype:
 
-```js
-module.exports = {
+```
+{
   extends: ['@amaneku/eslint-config/flowtype']
-};
+}
 ```
 
 typescript:
 
-```js
-module.exports = {
+```
+{
   extends: ['@amaneku/eslint-config/typescript']
-};
+}
 ```
 
 es5:
 
-```js
-module.exports = {
+```
+{
   extends: ['@amaneku/eslint-config/es5']
-};
+}
 ```
 
 ## License
