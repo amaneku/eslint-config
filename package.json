@@ -21,6 +21,12 @@
     "mocha": "5.2.0",
     "prettier": "1.14.0"
   },
+  "files": [
+    "lib",
+    "es5.js",
+    "flowtype.js",
+    "typescript.js"
+  ],
   "homepage": "https://github.com/amaneku/eslint-config#readme",
   "keywords": [
     "config",
