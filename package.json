@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@amaneku/prettier-config": "1.1.0",
-    "@amaneku/renovate-config": "1.0.0",
+    "@amaneku/renovate-config": "1.0.1",
     "eslint": "5.3.0",
     "mocha": "5.2.0",
     "prettier": "1.14.1"
