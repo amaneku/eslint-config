@@ -6,7 +6,7 @@
     "url": "https://github.com/amaneku/eslint-config/issues"
   },
   "dependencies": {
-    "babel-eslint": "8.2.6",
+    "babel-eslint": "9.0.0",
     "eslint-config-prettier": "3.0.1",
     "eslint-plugin-eslint-comments": "3.0.1",
     "eslint-plugin-flowtype": "2.50.0",
