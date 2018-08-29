@@ -1,9 +1,31 @@
 {
   "name": "@amaneku/eslint-config",
-  "description": "ESLint config",
   "version": "2.2.1",
+  "description": "ESLint config",
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "homepage": "https://github.com/amaneku/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/amaneku/eslint-config/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "es5.js",
+    "flowtype.js",
+    "typescript.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amaneku/eslint-config.git"
+  },
+  "scripts": {
+    "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
+    "lint": "eslint -c ./index.js \".\" \"./lib/\"",
+    "test": "mocha test"
   },
   "dependencies": {
     "babel-eslint": "9.0.0",
@@ -20,27 +42,5 @@
     "eslint": "5.4.0",
     "mocha": "5.2.0",
     "prettier": "1.14.2"
-  },
-  "files": [
-    "lib",
-    "es5.js",
-    "flowtype.js",
-    "typescript.js"
-  ],
-  "homepage": "https://github.com/amaneku/eslint-config#readme",
-  "keywords": [
-    "config",
-    "eslint"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/amaneku/eslint-config.git"
-  },
-  "scripts": {
-    "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
-    "lint": "eslint -c ./index.js \".\" \"./lib/\"",
-    "test": "mocha test"
   }
 }
