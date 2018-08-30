@@ -6,7 +6,7 @@
     "config",
     "eslint"
   ],
-  "homepage": "https://github.com/amaneku/eslint-config#readme",
+  "homepage": "https://github.com/amaneku/eslint-config",
   "bugs": {
     "url": "https://github.com/amaneku/eslint-config/issues"
   },
@@ -20,7 +20,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/amaneku/eslint-config.git"
+    "url": "https://github.com/amaneku/eslint-config.git"
   },
   "scripts": {
     "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
