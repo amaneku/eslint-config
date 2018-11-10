@@ -41,6 +41,6 @@
     "@amaneku/renovate-config": "1.0.1",
     "eslint": "5.9.0",
     "mocha": "5.2.0",
-    "prettier": "1.15.1"
+    "prettier": "1.15.2"
   }
 }
