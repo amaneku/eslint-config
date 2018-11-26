@@ -34,7 +34,7 @@
     "eslint-plugin-flowtype": "3.2.0",
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-typescript": "0.13.0",
-    "typescript-eslint-parser": "20.1.1"
+    "typescript-eslint-parser": "21.0.1"
   },
   "devDependencies": {
     "@amaneku/prettier-config": "1.2.0",
