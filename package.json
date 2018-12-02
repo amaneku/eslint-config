@@ -43,5 +43,8 @@
     "eslint": "5.9.0",
     "mocha": "5.2.0",
     "prettier": "1.15.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
