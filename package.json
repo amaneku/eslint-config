@@ -37,12 +37,12 @@
     "typescript-eslint-parser": "^21.0.1"
   },
   "devDependencies": {
-    "@amaneku/prettier-config": "^1.2.0",
-    "@amaneku/renovate-config": "^1.0.1",
-    "acorn": "^6.0.4",
-    "eslint": "^5.9.0",
-    "mocha": "^5.2.0",
-    "prettier": "^1.15.3"
+    "@amaneku/prettier-config": "1.2.0",
+    "@amaneku/renovate-config": "1.0.1",
+    "acorn": "6.0.4",
+    "eslint": "5.9.0",
+    "mocha": "5.2.0",
+    "prettier": "1.15.3"
   },
   "publishConfig": {
     "access": "public"
