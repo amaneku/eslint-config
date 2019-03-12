@@ -7,7 +7,7 @@ const Rules = require('eslint/lib/rules');
 const environments = new Environments();
 const allRules = new Rules();
 const removedRules = Object.keys(require('eslint/conf/replacements.json').rules);
-const plugins = new Plugins(environments, allRules);
+const plugins = new Plugins(environments, () => {});
 
 plugins.loadAll(['eslint-comments', 'prettier', 'flowtype', 'typescript']);
 
