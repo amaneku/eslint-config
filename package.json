@@ -42,7 +42,7 @@
     "acorn": "6.1.1",
     "eslint": "5.16.0",
     "mocha": "6.1.4",
-    "prettier": "1.17.0"
+    "prettier": "1.17.1"
   },
   "publishConfig": {
     "access": "public"
