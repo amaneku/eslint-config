@@ -42,7 +42,7 @@
     "eslint": "5.16.0",
     "mocha": "6.1.4",
     "prettier": "1.18.2",
-    "typescript": "3.5.2"
+    "typescript": "3.5.3"
   },
   "publishConfig": {
     "access": "public"
