@@ -2,14 +2,12 @@ const { Linter } = require('eslint');
 const Validator = require('eslint/lib/shared/config-validator');
 
 const typescriptEslintPlugin = require('@typescript-eslint/eslint-plugin');
-const eslintPluginFlowtype = require('eslint-plugin-flowtype');
 const eslintPluginPrettier = require('eslint-plugin-prettier');
 
 const coreRules = new Linter().getRules();
 const allRules = new Map([
   ...coreRules,
   ...Object.entries(typescriptEslintPlugin.configs.all.rules),
-  ...Object.entries(eslintPluginFlowtype.configs.recommended.rules),
   ...Object.entries(eslintPluginPrettier.configs.recommended.rules)
 ]);
 
@@ -47,6 +45,5 @@ describe('should be a valid config.', () => {
 
   validate('base');
   validate('esnext');
-  validate('flowtype');
   validate('typescript');
 });
