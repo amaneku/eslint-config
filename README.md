@@ -21,14 +21,6 @@ in ESLint config
 }
 ```
 
-flowtype:
-
-```
-{
-  extends: ['@amaneku/eslint-config/flowtype']
-}
-```
-
 typescript:
 
 ```

@@ -14,7 +14,6 @@
   "files": [
     "lib",
     "es5.js",
-    "flowtype.js",
     "typescript.js"
   ],
   "main": "index.js",
@@ -33,7 +32,6 @@
     "babel-eslint": "^10.0.2",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-eslint-comments": "^3.1.2",
-    "eslint-plugin-flowtype": "^4.0.0",
     "eslint-plugin-prettier": "^3.1.0"
   },
   "devDependencies": {
