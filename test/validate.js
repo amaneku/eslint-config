@@ -1,8 +1,8 @@
 const { Linter } = require('eslint');
 const Validator = require('eslint/lib/shared/config-validator');
-
 const typescriptEslintPlugin = require('@typescript-eslint/eslint-plugin');
 const eslintPluginPrettier = require('eslint-plugin-prettier');
+const replacements = require('eslint/conf/replacements.json')
 
 const coreRules = new Linter().getRules();
 const allRules = new Map([
@@ -16,7 +16,7 @@ const deprecatedRuleNames = new Set(
     .filter(([, rule]) => rule && rule.meta && rule.meta.deprecated)
     .map(([ruleId]) => ruleId)
 );
-const removedRuleNames = new Set(Object.keys(require('eslint/conf/replacements.json').rules));
+const removedRuleNames = new Set(Object.keys(replacements.rules));
 
 describe('should be a valid config.', () => {
   function validate(name) {
