@@ -24,7 +24,7 @@
   "scripts": {
     "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
     "lint": "eslint -c ./index.js \".\" \"./lib/\"",
-    "test": "mocha"
+    "test": "jest"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.0.0",
@@ -38,7 +38,7 @@
     "@amaneku/prettier-config": "2.0.0",
     "@amaneku/renovate-config": "1.3.0",
     "eslint": "7.4.0",
-    "mocha": "8.0.1",
+    "jest": "26.1.0",
     "prettier": "2.0.5",
     "typescript": "3.9.6"
   },
