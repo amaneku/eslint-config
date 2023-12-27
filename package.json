@@ -22,7 +22,7 @@
     "url": "https://github.com/amaneku/eslint-config.git"
   },
   "scripts": {
-    "fmt": "prettier --write \"*.js\" \"./lib/*.js\"",
+    "fmt": "prettier --write \"*.js\" \"./lib/**/*.js\"",
     "lint": "eslint -c ./index.js \".\" \"./lib/\"",
     "test": "jest"
   },

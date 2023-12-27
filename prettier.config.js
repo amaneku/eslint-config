@@ -1,1 +1,1 @@
-module.exports = require('@amaneku/prettier-config');
+module.exports = require('@amaneku/prettier-config')
